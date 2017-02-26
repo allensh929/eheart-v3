@@ -1,0 +1,7 @@
+/* Add here all your css styles (customizations) */
+.header .logo .logo-cont{
+    font-size: 19px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
