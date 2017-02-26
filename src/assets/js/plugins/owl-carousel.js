@@ -26,6 +26,70 @@ var OwlCarousel = function () {
 		        });
 		    });
 
+            jQuery(document).ready(function() {
+                //Owl Slider
+                jQuery(document).ready(function() {
+                    var owl11 = jQuery(".owl-slider-ysjc");
+                    owl11.owlCarousel({
+                        items: [4],
+                        itemsDesktop : [1000,3], //3 items between 1000px and 901px
+                        itemsDesktopSmall : [979,2], //2 items between 901px
+                        itemsTablet: [600,1], //1 items between 600 and 0;
+                        slideSpeed: 1000
+                    });
+
+                    // Custom Navigation Events
+                    jQuery(".owl-slider-ysjc-next").click(function(){
+                        owl11.trigger('owl.next');
+                    })
+                    jQuery(".owl-slider-ysjc-prev").click(function(){
+                        owl11.trigger('owl.prev');
+                    })
+                });
+            });
+            jQuery(document).ready(function() {
+                //Owl Slider
+                jQuery(document).ready(function() {
+                    var owl12 = jQuery(".owl-slider-kxls");
+                    owl12.owlCarousel({
+                        items: [4],
+                        itemsDesktop : [1000,3], //3 items between 1000px and 901px
+                        itemsDesktopSmall : [979,2], //2 items between 901px
+                        itemsTablet: [600,1], //1 items between 600 and 0;
+                        slideSpeed: 1000
+                    });
+
+                    // Custom Navigation Events
+                    jQuery(".owl-slider-kxls-next").click(function(){
+                        owl12.trigger('owl.next');
+                    })
+                    jQuery(".owl-slider-kxls-prev").click(function(){
+                        owl12.trigger('owl.prev');
+                    })
+                });
+            });
+            jQuery(document).ready(function() {
+                //Owl Slider
+                jQuery(document).ready(function() {
+                    var owl13 = jQuery(".owl-slider-gnyy");
+                    owl13.owlCarousel({
+                        items: [4],
+                        itemsDesktop : [1000,3], //3 items between 1000px and 901px
+                        itemsDesktopSmall : [979,2], //2 items between 901px
+                        itemsTablet: [600,1], //1 items between 600 and 0;
+                        slideSpeed: 1000
+                    });
+
+                    // Custom Navigation Events
+                    jQuery(".owl-slider-gnyy-next").click(function(){
+                        owl13.trigger('owl.next');
+                    })
+                    jQuery(".owl-slider-gnyy-prev").click(function(){
+                        owl13.trigger('owl.prev');
+                    })
+                });
+            });
+
             //Owl Slider v1
             var owl = jQuery(".owl-clients-v1").owlCarousel({
                 itemsDesktop : [1000,5],
