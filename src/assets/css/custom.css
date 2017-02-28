@@ -1,6 +1,7 @@
 /* Add here all your css styles (customizations) */
 .header .logo .logo-cont{
     font-size: 19px;
+    font-family: "Open Sans", "Microsoft YaHei",  Arial, sans-serif;
     display: inline-block;
     vertical-align: middle;
     position: relative;
@@ -12,6 +13,18 @@
     margin-left: auto !important;
     margin-right: auto !important;
     background: url(../img/eheart-us2.png) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.eheart-download {
+    padding: 0;
+    box-shadow: 0 0 5px #ccc;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    background: url(../img/app1.png) no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

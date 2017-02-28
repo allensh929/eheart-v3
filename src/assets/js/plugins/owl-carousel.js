@@ -129,28 +129,41 @@ var OwlCarousel = function () {
 		    });
 
 		    jQuery(document).ready(function() {
-		        //Owl Slider v4
-		        jQuery(document).ready(function() {
-		        var owl = jQuery(".owl-slider-v4");
-		            owl.owlCarousel({
-		            	items: [5],
-		                itemsDesktop : [1000,4], //4 items between 1000px and 901px
-		                itemsTablet: [600,2], //2 items between 600 and 0;
-		                itemsMobile : [479,2], //2 itemsMobile disabled - inherit from itemsTablet option
-		                slideSpeed: 1000
-		            });
+                //Owl Slider v4
+                jQuery(document).ready(function() {
+                    var owl = jQuery(".owl-slider-v4");
+                    owl.owlCarousel({
+                        items: [5],
+                        itemsDesktop : [1000,4], //4 items between 1000px and 901px
+                        itemsTablet: [600,2], //2 items between 600 and 0;
+                        itemsMobile : [479,2], //2 itemsMobile disabled - inherit from itemsTablet option
+                        slideSpeed: 1000
+                    });
 
-		            // Custom Navigation Events
-		            jQuery(".next").click(function(){
-		                owl.trigger('owl.next');
-		            })
-		            jQuery(".prev").click(function(){
-		                owl.trigger('owl.prev');
-		            })
-		        });
-		    });
+                    // Custom Navigation Events
+                    jQuery(".next").click(function(){
+                        owl.trigger('owl.next');
+                    })
+                    jQuery(".prev").click(function(){
+                        owl.trigger('owl.prev');
+                    })
+                });
+            });
 
-		    jQuery(document).ready(function() {
+            //Owl Slider v5
+            jQuery(document).ready(function() {
+                var owl = jQuery(".owl-slider-v5");
+                owl.owlCarousel({
+                    items:1,
+                    itemsDesktop : [1000,1],
+                    itemsDesktopSmall : [900,1],
+                    itemsTablet: [600,1],
+                    itemsMobile : [479,1]
+                });
+            });
+
+
+            jQuery(document).ready(function() {
 		        //Owl Slider
 		        jQuery(document).ready(function() {
 		        var owl = jQuery(".owl-twitter");

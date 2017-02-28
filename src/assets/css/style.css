@@ -21,13 +21,15 @@ body {
  color: #333;
  font-size: 13px;
  line-height: 1.6;
+    font-family: "Open Sans", "Microsoft YaHei",  Arial, sans-serif;
+
 }
 
 body.header-fixed-space {
   padding-top: 94px;
 }
 body.header-fixed-space-v2 {
-	padding-top: 135px;
+	padding-top: 86px;
 }
 
 @media (max-width: 991px) {
